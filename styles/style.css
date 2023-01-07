@@ -42,6 +42,79 @@ header {
     color: #005FAC;
     font-size: 20px;
     font-weight: 600;
+    overflow: hidden;
 }
 
-/* Main section */
+/* Main first section */
+
+main {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-sec {
+    display: flex;
+    justify-content: space-between;
+}
+.girl-image {
+    margin-top: 130px;
+    margin-left: 0;
+}
+.description {
+    margin-top: 370px;
+    padding-left: 80px;
+}
+.description h3 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-right: 100px;
+    padding-bottom: 24px;
+    text-align: left;
+}
+.description p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding-right: 30px;
+}
+.description ul {
+    padding-left: 0;
+}
+.description ul li {
+    list-style: none;
+}
+.material-symbols-outlined {
+    color: #16D887;
+}
+
+/* Main second section */
+
+.aims {
+    margin-top: 130px;
+    text-align: center;
+}
+.aims h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #151414;
+}
+
+.my-aims {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.aim-to-learn img, h3, p {
+    margin-bottom: 24px;
+}
+.aim-to-learn h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+}
+.aim-to-learn p {
+    color: #737272; 
+    font-weight: 400;  
+    font-size: 25px;
+}
