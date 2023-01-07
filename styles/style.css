@@ -158,3 +158,73 @@ main {
     color: #005FAC;
     border: none;
 }
+
+
+/* This is footer */
+footer {
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-around;
+    background: #151414;
+}
+.footer-left,
+.footer-right {
+    margin-left: 230px;
+    margin-top: 130px;
+}
+.footer-right {
+    margin-right: 230px;
+}
+.footer-left h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.footer-left p {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    padding-right: 30px;
+}
+.footer-right h4 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 31px;
+}
+.footer-left ul {
+    display: flex;
+    justify-content: lef;
+    padding-left: 0;
+}
+.footer-left ul li {
+    list-style: none;
+    margin-right: 15px;
+    margin-bottom: 130px;
+}
+.footer-left ul li a, a {
+    text-decoration: none;
+    color: #005FAC;
+}
+#contact {
+    width: 325px;
+    height: 64px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.sub-btn {
+    width: 170.11px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #005FAC;
+}
+.sub-btn a {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
